@@ -15,8 +15,8 @@ public:
 	vector<Way> Ways;
 	StoreHouse store;
 
-	void setStore(StoreHouse store) {
-		this->store=store;
+	void setStore(StoreHouse newStoreHouse) {
+		store = newStoreHouse;
 	}
 
 	void setMarket(Market newMarket) {
