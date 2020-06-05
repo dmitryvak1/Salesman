@@ -64,23 +64,23 @@ for (int i = 0; i < n; i++)
 			}
 			if(chart[i][j] == 3 && chart[i+1][j] == 1 && chart[i-1][j] == 1 && chart[i][j+1] == 1 && chart[i][j-1] == 1)
 			{
-				cout << "Ошибка при вводе карты" << endl;return 0;
+				cout << "Error when entering the card" << endl;return 0;
 			} else if (chart[i][j] == 2 && chart[i + 1][j] == 1 && chart[i - 1][j] == 1 && chart[i][j + 1] == 1 && chart[i][j - 1] == 1)
 			{
-				cout << "Ошибка при вводе карты" << endl;return 0;
+				cout << "Error when entering the card" << endl;return 0;
 			}
 		}
 }
 if (stc > 1) {
-    cout << "Ошибка при вводе карты" << endl;
+    cout << "Error when entering the card" << endl;
     return 0;
 } else if (stc == 0) {
-    cout << "Ошибка при вводе карты" << endl;
+    cout << "Error when entering the card" << endl;
     return 0;
 }
 if (shc == 0)
 {
-    cout << "Ошибка при вводе карты" << endl;
+    cout << "Error when entering the card" << endl;
     return 0;
 }
 Route Route;
@@ -395,7 +395,7 @@ for (Way l : Route.Ways) {
 		}
 		window.display();
 	}
-	cout << endl << "Путь пройден за " << counter << " ходов!" << endl << endl;
+	cout << endl << "ГЏГіГІГј ГЇГ°Г®Г©Г¤ГҐГ­ Г§Г  " << counter << " ГµГ®Г¤Г®Гў!" << endl << endl;
 
 	for (int i = 0; i < n; i++) {
 		delete[] chart[i];
